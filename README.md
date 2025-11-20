@@ -117,7 +117,7 @@ Project/
     api/notes/published/	GET	Fetch all public notes
     api/notes/<id>/like/	POST	Like/unlike
     api/notes/<id>/comments/	GET / POST	Manage comments
-   api/notes/<id>/rate/	POST	Rate a note
+    api/notes/<id>/rate/	POST	Rate a note
 
   
   
