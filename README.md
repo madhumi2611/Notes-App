@@ -1,4 +1,4 @@
-****NotesApp – Full-Stack Notes Management System****
+<b>NotesApp – Full-Stack Notes Management System</b>
   
 A full-stack web application that allows users to create, manage, publish, and interact with notes.
 The system supports secure authentication, private and public note handling, likes, comments, and rating, making it both a personal notes manager and a collaborative community platform.
