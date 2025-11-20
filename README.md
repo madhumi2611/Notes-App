@@ -6,9 +6,9 @@ The system supports secure authentication, private and public note handling, lik
   
 ---
   
-**1) Features**
+<b>1) Features</b>
   
-#### User Authentication
+#### User Authentication ####
 
     - Secure sign-up and login with Firebase Authentication
     - Token-based protected routes
@@ -44,7 +44,7 @@ The system supports secure authentication, private and public note handling, lik
 
 ---
   
-**2) Tech Stack**
+<b>2) Tech Stack</b>
   
 #### Frontend
 
@@ -76,7 +76,7 @@ The system supports secure authentication, private and public note handling, lik
   
 ---
   
-3) Project Structure
+<b>3) Project Structure</b>
 
 Project/  
 │  
@@ -105,7 +105,7 @@ Project/
   
 ---
   
-**4) API Endpoints**
+<b>4) API Endpoints</b>
 
 #### Endpoint	Method	Description
   
@@ -123,47 +123,30 @@ Project/
   
 ---
 
-#### 5) How It Works
+<b>5) How It Works</b>
   
     1. User logs in → Firebase issues authentication token
-
-
     2. React frontend sends requests with token
-
-
     3. Django backend verifies Firebase token
-
-
     4. Backend processes CRUD/interaction logic
-
-
     5. PostgreSQL stores and manages all data
-
-
     6. UI updates dynamically
-
-
   
   
 ---
 
-#### 6) Key Challenges Solved
+<b>6) Key Challenges Solved</b>
   
     - Integrating React + Django + Firebase smoothly
-
     - Token-based secure communication
-
     - Relational database design for notes, likes, ratings, comments
-
     - Real-time UI updates for engagement features
-
     - Ensuring responsive UI across devices
-
   
   
 ---
   
-****Conclusion****
+<b>Conclusion</b>
   
 NotesApp delivers a secure, scalable, and interactive platform for personal note-taking and community content sharing.
 With a modern tech stack and modular architecture, it supports future enhancements and is suitable for real-world deployment and academic evaluation.
