@@ -56,7 +56,7 @@ The system supports secure authentication, private and public note handling, lik
 #### Backend
 
     - Django
-    -Django REST Framework
+    - Django REST Framework
     - Python
     - Firebase Admin SDK
 
@@ -105,66 +105,66 @@ Project/
   
 ---
   
-4) API Endpoints
+**4) API Endpoints**
 
-Endpoint	Method	Description
+#### Endpoint	Method	Description
+  
+    api/user/register/	POST	Register a new user
+    api/user/profile/	GET	Get authenticated user's profile
+    api/notes/	GET / POST	Fetch user notes / Create note
+    api/notes/update/<id>/	PUT / PATCH	Update a note
+    api/notes/delete/<id>/	DELETE	Delete a note
+    api/notes/published/	GET	Fetch all public notes
+    api/notes/<id>/like/	POST	Like/unlike
+    api/notes/<id>/comments/	GET / POST	Manage comments
+   api/notes/<id>/rate/	POST	Rate a note
 
-api/user/register/	POST	Register a new user
-api/user/profile/	GET	Get authenticated user's profile
-api/notes/	GET / POST	Fetch user notes / Create note
-api/notes/update/<id>/	PUT / PATCH	Update a note
-api/notes/delete/<id>/	DELETE	Delete a note
-api/notes/published/	GET	Fetch all public notes
-api/notes/<id>/like/	POST	Like/unlike
-api/notes/<id>/comments/	GET / POST	Manage comments
-api/notes/<id>/rate/	POST	Rate a note
-
-
-
+  
+  
 ---
 
-5) How It Works
-
-1. User logs in → Firebase issues authentication token
-
-
-2. React frontend sends requests with token
+#### 5) How It Works
+  
+    1. User logs in → Firebase issues authentication token
 
 
-3. Django backend verifies Firebase token
+    2. React frontend sends requests with token
 
 
-4. Backend processes CRUD/interaction logic
+    3. Django backend verifies Firebase token
 
 
-5. PostgreSQL stores and manages all data
+    4. Backend processes CRUD/interaction logic
 
 
-6. UI updates dynamically
+    5. PostgreSQL stores and manages all data
 
 
+    6. UI updates dynamically
 
 
+  
+  
 ---
 
-6) Key Challenges Solved
+#### 6) Key Challenges Solved
+  
+    - Integrating React + Django + Firebase smoothly
 
-Integrating React + Django + Firebase smoothly
+    - Token-based secure communication
 
-Token-based secure communication
+    - Relational database design for notes, likes, ratings, comments
 
-Relational database design for notes, likes, ratings, comments
+    - Real-time UI updates for engagement features
 
-Real-time UI updates for engagement features
+    - Ensuring responsive UI across devices
 
-Ensuring responsive UI across devices
-
-
-
+  
+  
 ---
-
-7) Conclusion
-
+  
+****Conclusion****
+  
 NotesApp delivers a secure, scalable, and interactive platform for personal note-taking and community content sharing.
 With a modern tech stack and modular architecture, it supports future enhancements and is suitable for real-world deployment and academic evaluation.
 
