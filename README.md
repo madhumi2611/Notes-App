@@ -143,6 +143,6 @@ Project/
   
 <b>Conclusion</b>
   
-Threads-Note App delivers a secure, scalable, and interactive platform for personal note-taking and community content sharing.
+Threads-Notes App delivers a secure, scalable, and interactive platform for personal note-taking and community content sharing.
 With a modern tech stack and modular architecture, it supports future enhancements and is suitable for real-world deployment and academic evaluation.
 
