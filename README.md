@@ -1,4 +1,4 @@
-<b>NotesApp – Full-Stack Notes Management System</b>
+<b>Threads-Notes App – Full-Stack Notes Management System</b>
   
 A full-stack web application that allows users to create, manage, publish, and interact with notes.
 The system supports secure authentication, private and public note handling, likes, comments, and rating, making it both a personal notes manager and a collaborative community platform.
@@ -143,6 +143,6 @@ Project/
   
 <b>Conclusion</b>
   
-NotesApp delivers a secure, scalable, and interactive platform for personal note-taking and community content sharing.
+Threads-Note App delivers a secure, scalable, and interactive platform for personal note-taking and community content sharing.
 With a modern tech stack and modular architecture, it supports future enhancements and is suitable for real-world deployment and academic evaluation.
 
